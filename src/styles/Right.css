@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.right_context{
+    width: 30%;
+    height: 100vh;
+    border-left: 2px solid blue;
+    background-color: aqua;
+    position: relative;
+}
+.Test_boslash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.savollar_context{
+    min-width: 70%;
+    min-height: 100vh;
+    background-color:blueviolet;
+}
+.main_test{
+    display: flex;
+    justify-content:space-between ;
+}
+.btn3{
+    position: absolute;
+    z-index: 3;
+    left: -30px;
+}
